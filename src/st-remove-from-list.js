@@ -24,7 +24,7 @@ module.exports = function removeKFromList(l, k) {
   let node = l
   let nextNode = node.next
 
-  while(l.value == k){
+  if(l.value == k){
       l = l.next
   }
   
